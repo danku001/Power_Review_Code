@@ -44,7 +44,7 @@ func = sym.Matrix(func)
 f = sym.lambdify([var], func)
 Jinvfunc = sym.lambdify([var], Jinv)
 
-##################################Solving Now########################################################
+###########################################Solving Now##############################################################
 
 ## Getting initial guess from user
 x_i = [[int(input('Enter initial guess one element at a time: ')) for i in range(1)] for j in range(2)]
